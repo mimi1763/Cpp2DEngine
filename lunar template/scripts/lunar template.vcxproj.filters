@@ -1,0 +1,1044 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Header Files\game">
+      <UniqueIdentifier>{094de77b-66ff-49ed-9284-16c5616db2a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\game\engine">
+      <UniqueIdentifier>{0bfdba87-977c-43b0-b41c-f146beb6b379}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\game\engine\database">
+      <UniqueIdentifier>{6cfda396-1f88-4c0c-8499-bf861dc0f30e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\game\engine\database\table">
+      <UniqueIdentifier>{8157086e-c757-4533-8180-6312e6020909}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\game\engine\template">
+      <UniqueIdentifier>{5ec90edb-d2db-442e-b4a8-a89af3afe2ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\game\engine\input">
+      <UniqueIdentifier>{9c5edf3b-c9a6-4059-ac5d-779052f77f9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\game\engine\particle">
+      <UniqueIdentifier>{8ff5494e-7ee3-4910-946a-7c6fb83aaa9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\game\engine\particle\affector">
+      <UniqueIdentifier>{2c34ea32-e823-4992-88a6-0e0747b05a32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\game\engine\particle\emitter">
+      <UniqueIdentifier>{5cf4b7c7-da50-471c-b032-c857b5f7b759}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\game\engine\shader">
+      <UniqueIdentifier>{a6709fc9-0fe7-4d13-96ed-0adf6ff71904}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\game\engine\shader\program">
+      <UniqueIdentifier>{8faf863a-ee6d-4366-8aa1-42fc3b16acef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\game\engine\shader\variable">
+      <UniqueIdentifier>{a6d928d5-cb6e-438c-b819-fcf91ce130f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\game\engine\text">
+      <UniqueIdentifier>{38128248-f386-43a2-848f-4e315b7a8d40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\game\engine\text\font">
+      <UniqueIdentifier>{debbcae4-5295-49a7-9fa8-e5723b1de265}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\game\engine\texture">
+      <UniqueIdentifier>{037c268c-114e-443b-96e5-5b6256e7602b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\game\engine\texture\animation">
+      <UniqueIdentifier>{fbdc1861-3483-4473-bb94-81389f08abae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\game\engine\file">
+      <UniqueIdentifier>{c7999780-f45a-4dc5-8411-f2db307f9af3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\game\engine\time">
+      <UniqueIdentifier>{58ecc188-b412-40c6-a409-fd523aa5c1d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\game\engine\time\timer">
+      <UniqueIdentifier>{35f09f58-a5fa-4e2a-b563-dac431b8511a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\game\engine\sound">
+      <UniqueIdentifier>{b20414b4-8e19-4560-a2d9-467cb88f4864}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\game\engine\scene">
+      <UniqueIdentifier>{15dbbce5-1f2c-4f62-9fe9-302fe35c6258}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\game\engine\scene\attachable">
+      <UniqueIdentifier>{c9442fe0-4adf-4d95-9574-486c36c6d2ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\game\engine\scene\graph">
+      <UniqueIdentifier>{062c818a-14c5-4ef2-ae10-167f26f09e88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\game\engine\scene\capture">
+      <UniqueIdentifier>{e2adfc0c-90c1-43c7-9ddc-f20b5045381d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\game\engine\thread">
+      <UniqueIdentifier>{dcee8f3a-729d-4e0a-82c2-d9a572db3541}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\game\engine\resource">
+      <UniqueIdentifier>{a36d2465-2e92-4b53-8f2e-f51d07f10dd0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\game\engine\resource\data">
+      <UniqueIdentifier>{56d918a0-0a52-4832-a4b2-f5ae4c8730bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\game\engine\collision">
+      <UniqueIdentifier>{c421989b-09ea-4872-a408-2189842dcdf9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\game\engine\utility">
+      <UniqueIdentifier>{2b5c7348-a028-4faf-b493-25574f9a3423}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\game\engine\framebuffer">
+      <UniqueIdentifier>{7ca77bd6-2438-4a97-a774-91ca2efdf8f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\game\engine\manager">
+      <UniqueIdentifier>{4bb3fd55-912c-4d89-a15f-86fc366fe51e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\game\engine\script">
+      <UniqueIdentifier>{686cdc12-d335-4c2d-af34-333aaec4de7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\game\engine\random">
+      <UniqueIdentifier>{dfae7813-bc9c-4754-bf26-fb53f9608677}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\game\engine\random\generator">
+      <UniqueIdentifier>{ca6254fd-ec3a-4e47-ad76-823afb5f41ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\game\engine\system">
+      <UniqueIdentifier>{3f338a92-2ef7-4cb0-8692-46133648a58c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\game\engine\system\window">
+      <UniqueIdentifier>{ac97f878-966b-4046-bc0e-befa9075ed62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\game\entity">
+      <UniqueIdentifier>{bbbd1352-6fe2-48e5-97d4-95fbae7970f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\game\entity\object">
+      <UniqueIdentifier>{4483ea8a-90b1-473b-8f54-3de56f2be4da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\game\entity\object\component">
+      <UniqueIdentifier>{7ac4242e-f750-4026-9a27-b7aa036dc54a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\game\entity\ui">
+      <UniqueIdentifier>{5c788700-2878-4027-9f0c-973021c10c48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\game\entity\ui\element">
+      <UniqueIdentifier>{67dc6122-65f6-4eec-b59f-e07b6b596435}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\game\entity\ui\entity">
+      <UniqueIdentifier>{9bd3c0ce-7940-46bf-bfa1-b0451b564f67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\game\entity\utility">
+      <UniqueIdentifier>{f289dbf0-afaa-4f88-ac2d-41c28e8386c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\game\entity\manager">
+      <UniqueIdentifier>{90a017b9-01e8-480d-90aa-1dce9c17866e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game">
+      <UniqueIdentifier>{97c71c38-a1c6-46be-9db3-0333f5f283ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game\engine">
+      <UniqueIdentifier>{066402f5-199b-40c7-a9ed-5adb5eb79752}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game\engine\database">
+      <UniqueIdentifier>{a7ebf2e2-0024-4e82-a45f-d7aedea335bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game\engine\database\table">
+      <UniqueIdentifier>{de163352-e945-4374-aab2-5a2200395afb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game\engine\input">
+      <UniqueIdentifier>{3c597784-ebd3-4ad9-baab-a61a7f291f18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game\engine\particle">
+      <UniqueIdentifier>{15c2de30-8097-4490-ae82-ed1365eec060}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game\engine\particle\affector">
+      <UniqueIdentifier>{2fe849b5-6795-45aa-b763-eb89f080dd7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game\engine\particle\emitter">
+      <UniqueIdentifier>{4561d677-af5e-409b-a959-e07a8894af61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game\engine\text">
+      <UniqueIdentifier>{3ff4a0b6-2d9c-4ce6-95e4-086fb1032fe8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game\engine\text\font">
+      <UniqueIdentifier>{6339a2c8-3cc5-462b-9fa9-7592eaa50528}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game\engine\texture">
+      <UniqueIdentifier>{9b6cb98b-c999-4d19-a084-3020a6b64b53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game\engine\texture\animation">
+      <UniqueIdentifier>{393a1ba8-1303-42f7-ba80-13a47702fb65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game\engine\time">
+      <UniqueIdentifier>{f68a273c-c2d0-4f9b-854a-964f948acd97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game\engine\time\timer">
+      <UniqueIdentifier>{44092f9a-7afd-4a91-a340-b7adc9d0b4f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game\engine\file">
+      <UniqueIdentifier>{9d1179a9-8619-49d5-a5ab-f1438736df58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game\engine\shader">
+      <UniqueIdentifier>{b907ef20-4f9c-4a1c-803d-43b724772914}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game\engine\shader\program">
+      <UniqueIdentifier>{d8be97d3-3b50-461f-b1d2-6e00d284c887}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game\engine\shader\variable">
+      <UniqueIdentifier>{c8880640-8502-4a82-bd7d-b4d1bb01dcbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game\engine\sound">
+      <UniqueIdentifier>{d13016f4-3034-45fb-b7ff-5e9025f23cb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game\engine\scene">
+      <UniqueIdentifier>{9451acbd-a1b2-4ba0-9c35-81f98080a705}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game\engine\scene\attachable">
+      <UniqueIdentifier>{ecfdb1b0-8a4b-41c5-b1c5-185f41770df5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game\engine\scene\graph">
+      <UniqueIdentifier>{9633360b-85fe-4b64-8a7a-89d2e4c781ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game\engine\scene\capture">
+      <UniqueIdentifier>{005ecfc0-ab2c-4409-82fa-1689f1b19267}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game\engine\thread">
+      <UniqueIdentifier>{4fde51e4-9a96-42f3-9f37-a1344218b576}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game\engine\resource">
+      <UniqueIdentifier>{63afa164-ae34-4aec-8d11-2c63cef2004c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game\engine\resource\data">
+      <UniqueIdentifier>{518cf952-cba8-4531-bae1-364192f28239}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game\engine\collision">
+      <UniqueIdentifier>{96d915fb-5112-4b04-bc8d-10974a2247b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game\engine\utility">
+      <UniqueIdentifier>{ed972644-e679-48bf-b584-28bc7ceb9881}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game\engine\framebuffer">
+      <UniqueIdentifier>{f19d17f9-72a6-4d05-81fa-dc6b0cd5d6ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game\engine\manager">
+      <UniqueIdentifier>{cee89db1-8850-4033-8f03-df0cf2dae6a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game\engine\script">
+      <UniqueIdentifier>{2a736d56-4d86-4349-bebf-13d84c7a9eb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game\engine\random">
+      <UniqueIdentifier>{16a637ac-bed3-4723-a2bc-2945623e01df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game\engine\random\generator">
+      <UniqueIdentifier>{858b6112-ef40-459a-b350-05a0009abe2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game\engine\system">
+      <UniqueIdentifier>{17c85dd4-346f-45af-8377-387f874dee20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game\engine\system\window">
+      <UniqueIdentifier>{77a97fff-83ca-4239-9683-adac7de20472}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game\entity">
+      <UniqueIdentifier>{c3c2c9df-108f-4b82-8764-d8e0a547f726}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game\entity\object">
+      <UniqueIdentifier>{e7c6b602-e967-4f87-9102-998060525457}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game\entity\object\component">
+      <UniqueIdentifier>{d2465583-f4ed-4047-876c-ae7b64edf345}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game\entity\ui">
+      <UniqueIdentifier>{cd8d27f5-42b7-4ae1-a61c-0593fbe544bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game\entity\ui\element">
+      <UniqueIdentifier>{b7c24044-a23c-48b8-9feb-535f353213a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game\entity\ui\entity">
+      <UniqueIdentifier>{a1ce72fd-9ec8-4a9b-bfac-7fc27fc683c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game\entity\utility">
+      <UniqueIdentifier>{bffe8e11-2f81-43a8-9a64-f4aa5550a1c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game\entity\manager">
+      <UniqueIdentifier>{6593c021-0a42-43e9-a27c-6ca69baa0c57}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\source\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lunar engine\source\engine\core.cpp">
+      <Filter>Source Files\game\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lunar engine\source\engine\connector.cpp">
+      <Filter>Source Files\game\engine\database</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lunar engine\source\engine\database_server.cpp">
+      <Filter>Source Files\game\engine\database</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lunar engine\source\engine\animation_table.cpp">
+      <Filter>Source Files\game\engine\database\table</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lunar engine\source\engine\file_table.cpp">
+      <Filter>Source Files\game\engine\database\table</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lunar engine\source\engine\font_table.cpp">
+      <Filter>Source Files\game\engine\database\table</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lunar engine\source\engine\shader_table.cpp">
+      <Filter>Source Files\game\engine\database\table</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lunar engine\source\engine\sound_table.cpp">
+      <Filter>Source Files\game\engine\database\table</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lunar engine\source\engine\table.cpp">
+      <Filter>Source Files\game\engine\database\table</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lunar engine\source\engine\texture_table.cpp">
+      <Filter>Source Files\game\engine\database\table</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lunar engine\source\engine\input_manager.cpp">
+      <Filter>Source Files\game\engine\input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lunar engine\source\engine\particle_system.cpp">
+      <Filter>Source Files\game\engine\particle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lunar engine\source\engine\particlesystem_manager.cpp">
+      <Filter>Source Files\game\engine\particle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lunar engine\source\engine\affector.cpp">
+      <Filter>Source Files\game\engine\particle\affector</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lunar engine\source\engine\affector_manager.cpp">
+      <Filter>Source Files\game\engine\particle\affector</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lunar engine\source\engine\color_fader.cpp">
+      <Filter>Source Files\game\engine\particle\affector</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lunar engine\source\engine\direction_randomizer.cpp">
+      <Filter>Source Files\game\engine\particle\affector</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lunar engine\source\engine\gravitation.cpp">
+      <Filter>Source Files\game\engine\particle\affector</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lunar engine\source\engine\linear_force.cpp">
+      <Filter>Source Files\game\engine\particle\affector</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lunar engine\source\engine\scaler.cpp">
+      <Filter>Source Files\game\engine\particle\affector</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lunar engine\source\engine\sine_force.cpp">
+      <Filter>Source Files\game\engine\particle\affector</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lunar engine\source\engine\emitter.cpp">
+      <Filter>Source Files\game\engine\particle\emitter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lunar engine\source\engine\particle.cpp">
+      <Filter>Source Files\game\engine\particle\emitter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lunar engine\source\engine\text.cpp">
+      <Filter>Source Files\game\engine\text</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lunar engine\source\engine\text_manager.cpp">
+      <Filter>Source Files\game\engine\text</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lunar engine\source\engine\font.cpp">
+      <Filter>Source Files\game\engine\text\font</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lunar engine\source\engine\font_manager.cpp">
+      <Filter>Source Files\game\engine\text\font</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lunar engine\source\engine\texture.cpp">
+      <Filter>Source Files\game\engine\texture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lunar engine\source\engine\texture_manager.cpp">
+      <Filter>Source Files\game\engine\texture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lunar engine\source\engine\animation.cpp">
+      <Filter>Source Files\game\engine\texture\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lunar engine\source\engine\animation_manager.cpp">
+      <Filter>Source Files\game\engine\texture\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lunar engine\source\engine\timeline.cpp">
+      <Filter>Source Files\game\engine\time</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lunar engine\source\engine\timer.cpp">
+      <Filter>Source Files\game\engine\time\timer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lunar engine\source\engine\timer_manager.cpp">
+      <Filter>Source Files\game\engine\time\timer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lunar engine\source\engine\file_manager.cpp">
+      <Filter>Source Files\game\engine\file</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lunar engine\source\engine\sha.cpp">
+      <Filter>Source Files\game\engine\file</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lunar engine\source\engine\shader.cpp">
+      <Filter>Source Files\game\engine\shader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lunar engine\source\engine\shader_manager.cpp">
+      <Filter>Source Files\game\engine\shader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lunar engine\source\engine\shaderprogram.cpp">
+      <Filter>Source Files\game\engine\shader\program</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lunar engine\source\engine\shaderprogram_manager.cpp">
+      <Filter>Source Files\game\engine\shader\program</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lunar engine\source\engine\attribute.cpp">
+      <Filter>Source Files\game\engine\shader\variable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lunar engine\source\engine\sampler.cpp">
+      <Filter>Source Files\game\engine\shader\variable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lunar engine\source\engine\shadervariable.cpp">
+      <Filter>Source Files\game\engine\shader\variable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lunar engine\source\engine\uniform.cpp">
+      <Filter>Source Files\game\engine\shader\variable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lunar engine\source\engine\sound.cpp">
+      <Filter>Source Files\game\engine\sound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lunar engine\source\engine\sound_manager.cpp">
+      <Filter>Source Files\game\engine\sound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lunar engine\source\engine\scene_manager.cpp">
+      <Filter>Source Files\game\engine\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lunar engine\source\engine\attachable.cpp">
+      <Filter>Source Files\game\engine\scene\attachable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lunar engine\source\engine\border.cpp">
+      <Filter>Source Files\game\engine\scene\attachable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lunar engine\source\engine\curve.cpp">
+      <Filter>Source Files\game\engine\scene\attachable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lunar engine\source\engine\ellipse.cpp">
+      <Filter>Source Files\game\engine\scene\attachable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lunar engine\source\engine\polygon.cpp">
+      <Filter>Source Files\game\engine\scene\attachable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lunar engine\source\engine\rectangle.cpp">
+      <Filter>Source Files\game\engine\scene\attachable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lunar engine\source\engine\renderable.cpp">
+      <Filter>Source Files\game\engine\scene\attachable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lunar engine\source\engine\texturable.cpp">
+      <Filter>Source Files\game\engine\scene\attachable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lunar engine\source\engine\render_manager.cpp">
+      <Filter>Source Files\game\engine\scene\graph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lunar engine\source\engine\render_node.cpp">
+      <Filter>Source Files\game\engine\scene\graph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lunar engine\source\engine\capture.cpp">
+      <Filter>Source Files\game\engine\scene\capture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lunar engine\source\engine\thread.cpp">
+      <Filter>Source Files\game\engine\thread</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lunar engine\source\engine\thread_manager.cpp">
+      <Filter>Source Files\game\engine\thread</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lunar engine\source\engine\resource_manager.cpp">
+      <Filter>Source Files\game\engine\resource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lunar engine\source\engine\animation_container.cpp">
+      <Filter>Source Files\game\engine\resource\data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lunar engine\source\engine\file_container.cpp">
+      <Filter>Source Files\game\engine\resource\data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lunar engine\source\engine\font_container.cpp">
+      <Filter>Source Files\game\engine\resource\data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lunar engine\source\engine\resource_container.cpp">
+      <Filter>Source Files\game\engine\resource\data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lunar engine\source\engine\shader_container.cpp">
+      <Filter>Source Files\game\engine\resource\data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lunar engine\source\engine\sound_container.cpp">
+      <Filter>Source Files\game\engine\resource\data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lunar engine\source\engine\texture_container.cpp">
+      <Filter>Source Files\game\engine\resource\data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lunar engine\source\engine\aabb.cpp">
+      <Filter>Source Files\game\engine\collision</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lunar engine\source\engine\obb.cpp">
+      <Filter>Source Files\game\engine\collision</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lunar engine\source\engine\sphere.cpp">
+      <Filter>Source Files\game\engine\collision</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lunar engine\source\engine\color.cpp">
+      <Filter>Source Files\game\engine\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lunar engine\source\engine\datetime.cpp">
+      <Filter>Source Files\game\engine\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lunar engine\source\engine\generic_utility.cpp">
+      <Filter>Source Files\game\engine\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lunar engine\source\engine\math_solver.cpp">
+      <Filter>Source Files\game\engine\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lunar engine\source\engine\math_utility.cpp">
+      <Filter>Source Files\game\engine\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lunar engine\source\engine\matrix3.cpp">
+      <Filter>Source Files\game\engine\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lunar engine\source\engine\string_utility.cpp">
+      <Filter>Source Files\game\engine\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lunar engine\source\engine\support.cpp">
+      <Filter>Source Files\game\engine\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lunar engine\source\engine\vector2.cpp">
+      <Filter>Source Files\game\engine\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lunar engine\source\engine\framebuffer.cpp">
+      <Filter>Source Files\game\engine\framebuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lunar engine\source\engine\framebuffer_manager.cpp">
+      <Filter>Source Files\game\engine\framebuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lunar engine\source\engine\manageable.cpp">
+      <Filter>Source Files\game\engine\manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lunar engine\source\engine\manager.cpp">
+      <Filter>Source Files\game\engine\manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lunar engine\source\engine\script_class.cpp">
+      <Filter>Source Files\game\engine\script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lunar engine\source\engine\script_parser.cpp">
+      <Filter>Source Files\game\engine\script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lunar engine\source\engine\script_property.cpp">
+      <Filter>Source Files\game\engine\script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lunar engine\source\engine\script_scope.cpp">
+      <Filter>Source Files\game\engine\script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lunar engine\source\engine\random_manager.cpp">
+      <Filter>Source Files\game\engine\random</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lunar engine\source\engine\mersenne_twister.cpp">
+      <Filter>Source Files\game\engine\random\generator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lunar engine\source\engine\random_generator.cpp">
+      <Filter>Source Files\game\engine\random\generator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lunar engine\source\engine\system.cpp">
+      <Filter>Source Files\game\engine\system</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lunar engine\source\engine\render_window.cpp">
+      <Filter>Source Files\game\engine\system\window</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lunar entity\source\entity\audible.cpp">
+      <Filter>Source Files\game\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lunar entity\source\entity\entity.cpp">
+      <Filter>Source Files\game\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lunar entity\source\entity\static_entity.cpp">
+      <Filter>Source Files\game\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lunar entity\source\entity\light.cpp">
+      <Filter>Source Files\game\entity\object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lunar entity\source\entity\object.cpp">
+      <Filter>Source Files\game\entity\object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lunar entity\source\entity\component.cpp">
+      <Filter>Source Files\game\entity\object\component</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lunar entity\source\entity\light_component.cpp">
+      <Filter>Source Files\game\entity\object\component</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lunar entity\source\entity\shadow_component.cpp">
+      <Filter>Source Files\game\entity\object\component</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lunar entity\source\entity\ui_hud.cpp">
+      <Filter>Source Files\game\entity\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lunar entity\source\entity\ui_manager.cpp">
+      <Filter>Source Files\game\entity\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lunar entity\source\entity\ui_menu.cpp">
+      <Filter>Source Files\game\entity\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lunar entity\source\entity\ui_button.cpp">
+      <Filter>Source Files\game\entity\ui\element</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lunar entity\source\entity\ui_checkbox.cpp">
+      <Filter>Source Files\game\entity\ui\element</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lunar entity\source\entity\ui_element.cpp">
+      <Filter>Source Files\game\entity\ui\element</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lunar entity\source\entity\ui_groupbox.cpp">
+      <Filter>Source Files\game\entity\ui\element</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lunar entity\source\entity\ui_label.cpp">
+      <Filter>Source Files\game\entity\ui\element</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lunar entity\source\entity\ui_progressbar.cpp">
+      <Filter>Source Files\game\entity\ui\element</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lunar entity\source\entity\ui_radiobutton.cpp">
+      <Filter>Source Files\game\entity\ui\element</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lunar entity\source\entity\ui_scrollable.cpp">
+      <Filter>Source Files\game\entity\ui\element</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lunar entity\source\entity\ui_scrollbar.cpp">
+      <Filter>Source Files\game\entity\ui\element</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lunar entity\source\entity\ui_textbox.cpp">
+      <Filter>Source Files\game\entity\ui\element</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lunar entity\source\entity\ui_entity.cpp">
+      <Filter>Source Files\game\entity\ui\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lunar entity\source\entity\ui_hint.cpp">
+      <Filter>Source Files\game\entity\ui\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lunar entity\source\entity\interval.cpp">
+      <Filter>Source Files\game\entity\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lunar entity\source\entity\entity_manager.cpp">
+      <Filter>Source Files\game\entity\manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lunar entity\source\entity\lighting_manager.cpp">
+      <Filter>Source Files\game\entity\manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lunar entity\source\entity\node_manager.cpp">
+      <Filter>Source Files\game\entity\manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lunar entity\source\entity\ui_listbox.cpp">
+      <Filter>Source Files\game\entity\ui\element</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\game.cpp">
+      <Filter>Source Files\game</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\lunar engine\include\engine\core.h">
+      <Filter>Header Files\game\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lunar engine\include\engine\connector.h">
+      <Filter>Header Files\game\engine\database</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lunar engine\include\engine\database_server.h">
+      <Filter>Header Files\game\engine\database</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lunar engine\include\engine\animation_table.h">
+      <Filter>Header Files\game\engine\database\table</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lunar engine\include\engine\file_table.h">
+      <Filter>Header Files\game\engine\database\table</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lunar engine\include\engine\font_table.h">
+      <Filter>Header Files\game\engine\database\table</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lunar engine\include\engine\shader_table.h">
+      <Filter>Header Files\game\engine\database\table</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lunar engine\include\engine\sound_table.h">
+      <Filter>Header Files\game\engine\database\table</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lunar engine\include\engine\table.h">
+      <Filter>Header Files\game\engine\database\table</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lunar engine\include\engine\texture_table.h">
+      <Filter>Header Files\game\engine\database\table</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lunar engine\include\engine\any_cast.h">
+      <Filter>Header Files\game\engine\template</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lunar engine\include\engine\any_type.h">
+      <Filter>Header Files\game\engine\template</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lunar engine\include\engine\array.h">
+      <Filter>Header Files\game\engine\template</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lunar engine\include\engine\callback.h">
+      <Filter>Header Files\game\engine\template</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lunar engine\include\engine\lexical_cast.h">
+      <Filter>Header Files\game\engine\template</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lunar engine\include\engine\listener_interface.h">
+      <Filter>Header Files\game\engine\template</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lunar engine\include\engine\random.h">
+      <Filter>Header Files\game\engine\template</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lunar engine\include\engine\type_traits.h">
+      <Filter>Header Files\game\engine\template</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lunar engine\include\engine\input_manager.h">
+      <Filter>Header Files\game\engine\input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lunar engine\include\engine\listener.h">
+      <Filter>Header Files\game\engine\input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lunar engine\include\engine\particle_system.h">
+      <Filter>Header Files\game\engine\particle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lunar engine\include\engine\particlesystem_manager.h">
+      <Filter>Header Files\game\engine\particle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lunar engine\include\engine\affector.h">
+      <Filter>Header Files\game\engine\particle\affector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lunar engine\include\engine\affector_manager.h">
+      <Filter>Header Files\game\engine\particle\affector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lunar engine\include\engine\color_fader.h">
+      <Filter>Header Files\game\engine\particle\affector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lunar engine\include\engine\direction_randomizer.h">
+      <Filter>Header Files\game\engine\particle\affector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lunar engine\include\engine\gravitation.h">
+      <Filter>Header Files\game\engine\particle\affector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lunar engine\include\engine\linear_force.h">
+      <Filter>Header Files\game\engine\particle\affector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lunar engine\include\engine\scaler.h">
+      <Filter>Header Files\game\engine\particle\affector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lunar engine\include\engine\sine_force.h">
+      <Filter>Header Files\game\engine\particle\affector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lunar engine\include\engine\emitter.h">
+      <Filter>Header Files\game\engine\particle\emitter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lunar engine\include\engine\particle.h">
+      <Filter>Header Files\game\engine\particle\emitter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lunar engine\include\engine\shader.h">
+      <Filter>Header Files\game\engine\shader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lunar engine\include\engine\shader_manager.h">
+      <Filter>Header Files\game\engine\shader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lunar engine\include\engine\shaderprogram.h">
+      <Filter>Header Files\game\engine\shader\program</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lunar engine\include\engine\shaderprogram_manager.h">
+      <Filter>Header Files\game\engine\shader\program</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lunar engine\include\engine\attribute.h">
+      <Filter>Header Files\game\engine\shader\variable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lunar engine\include\engine\sampler.h">
+      <Filter>Header Files\game\engine\shader\variable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lunar engine\include\engine\shadervariable.h">
+      <Filter>Header Files\game\engine\shader\variable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lunar engine\include\engine\uniform.h">
+      <Filter>Header Files\game\engine\shader\variable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lunar engine\include\engine\text.h">
+      <Filter>Header Files\game\engine\text</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lunar engine\include\engine\text_manager.h">
+      <Filter>Header Files\game\engine\text</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lunar engine\include\engine\font.h">
+      <Filter>Header Files\game\engine\text\font</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lunar engine\include\engine\font_manager.h">
+      <Filter>Header Files\game\engine\text\font</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lunar engine\include\engine\texture.h">
+      <Filter>Header Files\game\engine\texture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lunar engine\include\engine\texture_manager.h">
+      <Filter>Header Files\game\engine\texture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lunar engine\include\engine\animation.h">
+      <Filter>Header Files\game\engine\texture\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lunar engine\include\engine\animation_manager.h">
+      <Filter>Header Files\game\engine\texture\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lunar engine\include\engine\file_manager.h">
+      <Filter>Header Files\game\engine\file</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lunar engine\include\engine\sha.h">
+      <Filter>Header Files\game\engine\file</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lunar engine\include\engine\timeline.h">
+      <Filter>Header Files\game\engine\time</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lunar engine\include\engine\timer.h">
+      <Filter>Header Files\game\engine\time\timer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lunar engine\include\engine\timer_manager.h">
+      <Filter>Header Files\game\engine\time\timer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lunar engine\include\engine\sound.h">
+      <Filter>Header Files\game\engine\sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lunar engine\include\engine\sound_manager.h">
+      <Filter>Header Files\game\engine\sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lunar engine\include\engine\scene_manager.h">
+      <Filter>Header Files\game\engine\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lunar engine\include\engine\attachable.h">
+      <Filter>Header Files\game\engine\scene\attachable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lunar engine\include\engine\border.h">
+      <Filter>Header Files\game\engine\scene\attachable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lunar engine\include\engine\curve.h">
+      <Filter>Header Files\game\engine\scene\attachable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lunar engine\include\engine\ellipse.h">
+      <Filter>Header Files\game\engine\scene\attachable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lunar engine\include\engine\polygon.h">
+      <Filter>Header Files\game\engine\scene\attachable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lunar engine\include\engine\rectangle.h">
+      <Filter>Header Files\game\engine\scene\attachable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lunar engine\include\engine\renderable.h">
+      <Filter>Header Files\game\engine\scene\attachable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lunar engine\include\engine\texturable.h">
+      <Filter>Header Files\game\engine\scene\attachable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lunar engine\include\engine\render_manager.h">
+      <Filter>Header Files\game\engine\scene\graph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lunar engine\include\engine\render_node.h">
+      <Filter>Header Files\game\engine\scene\graph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lunar engine\include\engine\capture.h">
+      <Filter>Header Files\game\engine\scene\capture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lunar engine\include\engine\thread.h">
+      <Filter>Header Files\game\engine\thread</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lunar engine\include\engine\thread_manager.h">
+      <Filter>Header Files\game\engine\thread</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lunar engine\include\engine\resource_manager.h">
+      <Filter>Header Files\game\engine\resource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lunar engine\include\engine\animation_container.h">
+      <Filter>Header Files\game\engine\resource\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lunar engine\include\engine\file_container.h">
+      <Filter>Header Files\game\engine\resource\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lunar engine\include\engine\font_container.h">
+      <Filter>Header Files\game\engine\resource\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lunar engine\include\engine\resource_container.h">
+      <Filter>Header Files\game\engine\resource\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lunar engine\include\engine\shader_container.h">
+      <Filter>Header Files\game\engine\resource\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lunar engine\include\engine\sound_container.h">
+      <Filter>Header Files\game\engine\resource\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lunar engine\include\engine\texture_container.h">
+      <Filter>Header Files\game\engine\resource\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lunar engine\include\engine\aabb.h">
+      <Filter>Header Files\game\engine\collision</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lunar engine\include\engine\obb.h">
+      <Filter>Header Files\game\engine\collision</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lunar engine\include\engine\sphere.h">
+      <Filter>Header Files\game\engine\collision</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lunar engine\include\engine\color.h">
+      <Filter>Header Files\game\engine\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lunar engine\include\engine\datetime.h">
+      <Filter>Header Files\game\engine\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lunar engine\include\engine\generic_utility.h">
+      <Filter>Header Files\game\engine\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lunar engine\include\engine\math_solver.h">
+      <Filter>Header Files\game\engine\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lunar engine\include\engine\math_utility.h">
+      <Filter>Header Files\game\engine\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lunar engine\include\engine\matrix3.h">
+      <Filter>Header Files\game\engine\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lunar engine\include\engine\string_utility.h">
+      <Filter>Header Files\game\engine\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lunar engine\include\engine\support.h">
+      <Filter>Header Files\game\engine\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lunar engine\include\engine\vector2.h">
+      <Filter>Header Files\game\engine\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lunar engine\include\engine\framebuffer.h">
+      <Filter>Header Files\game\engine\framebuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lunar engine\include\engine\framebuffer_manager.h">
+      <Filter>Header Files\game\engine\framebuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lunar engine\include\engine\manageable.h">
+      <Filter>Header Files\game\engine\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lunar engine\include\engine\manager.h">
+      <Filter>Header Files\game\engine\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lunar engine\include\engine\script_class.h">
+      <Filter>Header Files\game\engine\script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lunar engine\include\engine\script_parser.h">
+      <Filter>Header Files\game\engine\script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lunar engine\include\engine\script_property.h">
+      <Filter>Header Files\game\engine\script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lunar engine\include\engine\script_scope.h">
+      <Filter>Header Files\game\engine\script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lunar engine\include\engine\random_manager.h">
+      <Filter>Header Files\game\engine\random</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lunar engine\include\engine\mersenne_twister.h">
+      <Filter>Header Files\game\engine\random\generator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lunar engine\include\engine\random_generator.h">
+      <Filter>Header Files\game\engine\random\generator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lunar engine\include\engine\system.h">
+      <Filter>Header Files\game\engine\system</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lunar engine\include\engine\render_window.h">
+      <Filter>Header Files\game\engine\system\window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lunar entity\include\entity\audible.h">
+      <Filter>Header Files\game\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lunar entity\include\entity\entity.h">
+      <Filter>Header Files\game\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lunar entity\include\entity\static_entity.h">
+      <Filter>Header Files\game\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lunar entity\include\entity\light.h">
+      <Filter>Header Files\game\entity\object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lunar entity\include\entity\object.h">
+      <Filter>Header Files\game\entity\object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lunar entity\include\entity\component.h">
+      <Filter>Header Files\game\entity\object\component</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lunar entity\include\entity\light_component.h">
+      <Filter>Header Files\game\entity\object\component</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lunar entity\include\entity\shadow_component.h">
+      <Filter>Header Files\game\entity\object\component</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lunar entity\include\entity\ui_hud.h">
+      <Filter>Header Files\game\entity\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lunar entity\include\entity\ui_manager.h">
+      <Filter>Header Files\game\entity\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lunar entity\include\entity\ui_menu.h">
+      <Filter>Header Files\game\entity\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lunar entity\include\entity\ui_button.h">
+      <Filter>Header Files\game\entity\ui\element</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lunar entity\include\entity\ui_checkbox.h">
+      <Filter>Header Files\game\entity\ui\element</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lunar entity\include\entity\ui_element.h">
+      <Filter>Header Files\game\entity\ui\element</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lunar entity\include\entity\ui_groupbox.h">
+      <Filter>Header Files\game\entity\ui\element</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lunar entity\include\entity\ui_label.h">
+      <Filter>Header Files\game\entity\ui\element</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lunar entity\include\entity\ui_progressbar.h">
+      <Filter>Header Files\game\entity\ui\element</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lunar entity\include\entity\ui_radiobutton.h">
+      <Filter>Header Files\game\entity\ui\element</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lunar entity\include\entity\ui_scrollable.h">
+      <Filter>Header Files\game\entity\ui\element</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lunar entity\include\entity\ui_scrollbar.h">
+      <Filter>Header Files\game\entity\ui\element</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lunar entity\include\entity\ui_textbox.h">
+      <Filter>Header Files\game\entity\ui\element</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lunar entity\include\entity\ui_entity.h">
+      <Filter>Header Files\game\entity\ui\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lunar entity\include\entity\ui_hint.h">
+      <Filter>Header Files\game\entity\ui\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lunar entity\include\entity\interval.h">
+      <Filter>Header Files\game\entity\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lunar entity\include\entity\entity_manager.h">
+      <Filter>Header Files\game\entity\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lunar entity\include\entity\lighting_manager.h">
+      <Filter>Header Files\game\entity\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lunar entity\include\entity\node_manager.h">
+      <Filter>Header Files\game\entity\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lunar entity\include\entity\ui_listbox.h">
+      <Filter>Header Files\game\entity\ui\element</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\game.h">
+      <Filter>Header Files\game</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

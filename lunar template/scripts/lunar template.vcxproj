@@ -1,0 +1,357 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{20111198-BB76-4EF9-BA0A-E35BB44D16CF}</ProjectGuid>
+    <RootNamespace>lunar</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectName>lunar template</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>11.0.50727.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>..\game\$(Configuration)\</OutDir>
+    <IntDir>..\objects\$(Configuration)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>..\game\$(Configuration)\</OutDir>
+    <IntDir>..\objects\$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\include;..\..\lunar engine\include\engine;..\..\lunar entity\include\entity;..\..\lunar engine\include\engine\ffmpeg;..\..\lunar engine\include\engine\fmod;..\..\lunar engine\include\engine\freeimage;..\..\lunar engine\include\engine\freetype;..\..\lunar engine\include\engine\mysql;..\..\lunar engine\include\engine\pthread;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;WIN32_LEAN_AND_MEAN;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>opengl32.lib;glu32.lib;glew32.lib;fmodex_vc.lib;FreeImage.lib;freetype.lib;libmysqld.lib;pthreadVC2.lib;avcodec-52.lib;avdevice-52.lib;avformat-52.lib;avutil-49.lib;swscale-0.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\library;..\..\lunar engine\library;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <EntryPointSymbol />
+      <TargetMachine>MachineX86</TargetMachine>
+      <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\include;..\..\lunar engine\include\engine;..\..\lunar entity\include\entity;..\..\lunar engine\include\engine\ffmpeg;..\..\lunar engine\include\engine\fmod;..\..\lunar engine\include\engine\freeimage;..\..\lunar engine\include\engine\freetype;..\..\lunar engine\include\engine\mysql;..\..\lunar engine\include\engine\pthread;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;WIN32_LEAN_AND_MEAN;_SECURE_SCL=0;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>opengl32.lib;glu32.lib;glew32.lib;fmodex_vc.lib;FreeImage.lib;freetype.lib;libmysqld.lib;pthreadVC2.lib;avcodec-52.lib;avdevice-52.lib;avformat-52.lib;avutil-49.lib;swscale-0.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\library;..\..\lunar engine\library;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <EntryPointSymbol />
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\lunar entity\source\entity\ui_listbox.cpp" />
+    <ClCompile Include="..\source\main.cpp" />
+    <ClCompile Include="..\source\game.cpp" />
+    <ClCompile Include="..\..\lunar engine\source\engine\core.cpp" />
+    <ClCompile Include="..\..\lunar engine\source\engine\connector.cpp" />
+    <ClCompile Include="..\..\lunar engine\source\engine\database_server.cpp" />
+    <ClCompile Include="..\..\lunar engine\source\engine\animation_table.cpp" />
+    <ClCompile Include="..\..\lunar engine\source\engine\file_table.cpp" />
+    <ClCompile Include="..\..\lunar engine\source\engine\font_table.cpp" />
+    <ClCompile Include="..\..\lunar engine\source\engine\shader_table.cpp" />
+    <ClCompile Include="..\..\lunar engine\source\engine\sound_table.cpp" />
+    <ClCompile Include="..\..\lunar engine\source\engine\table.cpp" />
+    <ClCompile Include="..\..\lunar engine\source\engine\texture_table.cpp" />
+    <ClCompile Include="..\..\lunar engine\source\engine\input_manager.cpp" />
+    <ClCompile Include="..\..\lunar engine\source\engine\particle_system.cpp" />
+    <ClCompile Include="..\..\lunar engine\source\engine\particlesystem_manager.cpp" />
+    <ClCompile Include="..\..\lunar engine\source\engine\affector.cpp" />
+    <ClCompile Include="..\..\lunar engine\source\engine\affector_manager.cpp" />
+    <ClCompile Include="..\..\lunar engine\source\engine\color_fader.cpp" />
+    <ClCompile Include="..\..\lunar engine\source\engine\direction_randomizer.cpp" />
+    <ClCompile Include="..\..\lunar engine\source\engine\gravitation.cpp" />
+    <ClCompile Include="..\..\lunar engine\source\engine\linear_force.cpp" />
+    <ClCompile Include="..\..\lunar engine\source\engine\scaler.cpp" />
+    <ClCompile Include="..\..\lunar engine\source\engine\sine_force.cpp" />
+    <ClCompile Include="..\..\lunar engine\source\engine\emitter.cpp" />
+    <ClCompile Include="..\..\lunar engine\source\engine\particle.cpp" />
+    <ClCompile Include="..\..\lunar engine\source\engine\text.cpp" />
+    <ClCompile Include="..\..\lunar engine\source\engine\text_manager.cpp" />
+    <ClCompile Include="..\..\lunar engine\source\engine\font.cpp" />
+    <ClCompile Include="..\..\lunar engine\source\engine\font_manager.cpp" />
+    <ClCompile Include="..\..\lunar engine\source\engine\texture.cpp" />
+    <ClCompile Include="..\..\lunar engine\source\engine\texture_manager.cpp" />
+    <ClCompile Include="..\..\lunar engine\source\engine\animation.cpp" />
+    <ClCompile Include="..\..\lunar engine\source\engine\animation_manager.cpp" />
+    <ClCompile Include="..\..\lunar engine\source\engine\timeline.cpp" />
+    <ClCompile Include="..\..\lunar engine\source\engine\timer.cpp" />
+    <ClCompile Include="..\..\lunar engine\source\engine\timer_manager.cpp" />
+    <ClCompile Include="..\..\lunar engine\source\engine\file_manager.cpp" />
+    <ClCompile Include="..\..\lunar engine\source\engine\sha.cpp" />
+    <ClCompile Include="..\..\lunar engine\source\engine\shader.cpp" />
+    <ClCompile Include="..\..\lunar engine\source\engine\shader_manager.cpp" />
+    <ClCompile Include="..\..\lunar engine\source\engine\shaderprogram.cpp" />
+    <ClCompile Include="..\..\lunar engine\source\engine\shaderprogram_manager.cpp" />
+    <ClCompile Include="..\..\lunar engine\source\engine\attribute.cpp" />
+    <ClCompile Include="..\..\lunar engine\source\engine\sampler.cpp" />
+    <ClCompile Include="..\..\lunar engine\source\engine\shadervariable.cpp" />
+    <ClCompile Include="..\..\lunar engine\source\engine\uniform.cpp" />
+    <ClCompile Include="..\..\lunar engine\source\engine\sound.cpp" />
+    <ClCompile Include="..\..\lunar engine\source\engine\sound_manager.cpp" />
+    <ClCompile Include="..\..\lunar engine\source\engine\scene_manager.cpp" />
+    <ClCompile Include="..\..\lunar engine\source\engine\attachable.cpp" />
+    <ClCompile Include="..\..\lunar engine\source\engine\border.cpp" />
+    <ClCompile Include="..\..\lunar engine\source\engine\curve.cpp" />
+    <ClCompile Include="..\..\lunar engine\source\engine\ellipse.cpp" />
+    <ClCompile Include="..\..\lunar engine\source\engine\polygon.cpp" />
+    <ClCompile Include="..\..\lunar engine\source\engine\rectangle.cpp" />
+    <ClCompile Include="..\..\lunar engine\source\engine\renderable.cpp" />
+    <ClCompile Include="..\..\lunar engine\source\engine\texturable.cpp" />
+    <ClCompile Include="..\..\lunar engine\source\engine\render_manager.cpp" />
+    <ClCompile Include="..\..\lunar engine\source\engine\render_node.cpp" />
+    <ClCompile Include="..\..\lunar engine\source\engine\capture.cpp" />
+    <ClCompile Include="..\..\lunar engine\source\engine\thread.cpp" />
+    <ClCompile Include="..\..\lunar engine\source\engine\thread_manager.cpp" />
+    <ClCompile Include="..\..\lunar engine\source\engine\resource_manager.cpp" />
+    <ClCompile Include="..\..\lunar engine\source\engine\animation_container.cpp" />
+    <ClCompile Include="..\..\lunar engine\source\engine\file_container.cpp" />
+    <ClCompile Include="..\..\lunar engine\source\engine\font_container.cpp" />
+    <ClCompile Include="..\..\lunar engine\source\engine\resource_container.cpp" />
+    <ClCompile Include="..\..\lunar engine\source\engine\shader_container.cpp" />
+    <ClCompile Include="..\..\lunar engine\source\engine\sound_container.cpp" />
+    <ClCompile Include="..\..\lunar engine\source\engine\texture_container.cpp" />
+    <ClCompile Include="..\..\lunar engine\source\engine\aabb.cpp" />
+    <ClCompile Include="..\..\lunar engine\source\engine\obb.cpp" />
+    <ClCompile Include="..\..\lunar engine\source\engine\sphere.cpp" />
+    <ClCompile Include="..\..\lunar engine\source\engine\color.cpp" />
+    <ClCompile Include="..\..\lunar engine\source\engine\datetime.cpp" />
+    <ClCompile Include="..\..\lunar engine\source\engine\generic_utility.cpp" />
+    <ClCompile Include="..\..\lunar engine\source\engine\math_solver.cpp" />
+    <ClCompile Include="..\..\lunar engine\source\engine\math_utility.cpp" />
+    <ClCompile Include="..\..\lunar engine\source\engine\matrix3.cpp" />
+    <ClCompile Include="..\..\lunar engine\source\engine\string_utility.cpp" />
+    <ClCompile Include="..\..\lunar engine\source\engine\support.cpp" />
+    <ClCompile Include="..\..\lunar engine\source\engine\vector2.cpp" />
+    <ClCompile Include="..\..\lunar engine\source\engine\framebuffer.cpp" />
+    <ClCompile Include="..\..\lunar engine\source\engine\framebuffer_manager.cpp" />
+    <ClCompile Include="..\..\lunar engine\source\engine\manageable.cpp" />
+    <ClCompile Include="..\..\lunar engine\source\engine\manager.cpp" />
+    <ClCompile Include="..\..\lunar engine\source\engine\script_class.cpp" />
+    <ClCompile Include="..\..\lunar engine\source\engine\script_parser.cpp" />
+    <ClCompile Include="..\..\lunar engine\source\engine\script_property.cpp" />
+    <ClCompile Include="..\..\lunar engine\source\engine\script_scope.cpp" />
+    <ClCompile Include="..\..\lunar engine\source\engine\random_manager.cpp" />
+    <ClCompile Include="..\..\lunar engine\source\engine\mersenne_twister.cpp" />
+    <ClCompile Include="..\..\lunar engine\source\engine\random_generator.cpp" />
+    <ClCompile Include="..\..\lunar engine\source\engine\system.cpp" />
+    <ClCompile Include="..\..\lunar engine\source\engine\render_window.cpp" />
+    <ClCompile Include="..\..\lunar entity\source\entity\audible.cpp" />
+    <ClCompile Include="..\..\lunar entity\source\entity\entity.cpp" />
+    <ClCompile Include="..\..\lunar entity\source\entity\static_entity.cpp" />
+    <ClCompile Include="..\..\lunar entity\source\entity\light.cpp" />
+    <ClCompile Include="..\..\lunar entity\source\entity\object.cpp" />
+    <ClCompile Include="..\..\lunar entity\source\entity\component.cpp" />
+    <ClCompile Include="..\..\lunar entity\source\entity\light_component.cpp" />
+    <ClCompile Include="..\..\lunar entity\source\entity\shadow_component.cpp" />
+    <ClCompile Include="..\..\lunar entity\source\entity\ui_hud.cpp" />
+    <ClCompile Include="..\..\lunar entity\source\entity\ui_manager.cpp" />
+    <ClCompile Include="..\..\lunar entity\source\entity\ui_menu.cpp" />
+    <ClCompile Include="..\..\lunar entity\source\entity\ui_button.cpp" />
+    <ClCompile Include="..\..\lunar entity\source\entity\ui_checkbox.cpp" />
+    <ClCompile Include="..\..\lunar entity\source\entity\ui_element.cpp" />
+    <ClCompile Include="..\..\lunar entity\source\entity\ui_groupbox.cpp" />
+    <ClCompile Include="..\..\lunar entity\source\entity\ui_label.cpp" />
+    <ClCompile Include="..\..\lunar entity\source\entity\ui_progressbar.cpp" />
+    <ClCompile Include="..\..\lunar entity\source\entity\ui_radiobutton.cpp" />
+    <ClCompile Include="..\..\lunar entity\source\entity\ui_scrollable.cpp" />
+    <ClCompile Include="..\..\lunar entity\source\entity\ui_scrollbar.cpp" />
+    <ClCompile Include="..\..\lunar entity\source\entity\ui_textbox.cpp" />
+    <ClCompile Include="..\..\lunar entity\source\entity\ui_entity.cpp" />
+    <ClCompile Include="..\..\lunar entity\source\entity\ui_hint.cpp" />
+    <ClCompile Include="..\..\lunar entity\source\entity\interval.cpp" />
+    <ClCompile Include="..\..\lunar entity\source\entity\entity_manager.cpp" />
+    <ClCompile Include="..\..\lunar entity\source\entity\lighting_manager.cpp" />
+    <ClCompile Include="..\..\lunar entity\source\entity\node_manager.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\lunar entity\include\entity\ui_listbox.h" />
+    <ClInclude Include="..\include\game.h" />
+    <ClInclude Include="..\..\lunar engine\include\engine\core.h" />
+    <ClInclude Include="..\..\lunar engine\include\engine\connector.h" />
+    <ClInclude Include="..\..\lunar engine\include\engine\database_server.h" />
+    <ClInclude Include="..\..\lunar engine\include\engine\animation_table.h" />
+    <ClInclude Include="..\..\lunar engine\include\engine\file_table.h" />
+    <ClInclude Include="..\..\lunar engine\include\engine\font_table.h" />
+    <ClInclude Include="..\..\lunar engine\include\engine\shader_table.h" />
+    <ClInclude Include="..\..\lunar engine\include\engine\sound_table.h" />
+    <ClInclude Include="..\..\lunar engine\include\engine\table.h" />
+    <ClInclude Include="..\..\lunar engine\include\engine\texture_table.h" />
+    <ClInclude Include="..\..\lunar engine\include\engine\any_cast.h" />
+    <ClInclude Include="..\..\lunar engine\include\engine\any_type.h" />
+    <ClInclude Include="..\..\lunar engine\include\engine\array.h" />
+    <ClInclude Include="..\..\lunar engine\include\engine\callback.h" />
+    <ClInclude Include="..\..\lunar engine\include\engine\lexical_cast.h" />
+    <ClInclude Include="..\..\lunar engine\include\engine\listener_interface.h" />
+    <ClInclude Include="..\..\lunar engine\include\engine\random.h" />
+    <ClInclude Include="..\..\lunar engine\include\engine\type_traits.h" />
+    <ClInclude Include="..\..\lunar engine\include\engine\input_manager.h" />
+    <ClInclude Include="..\..\lunar engine\include\engine\listener.h" />
+    <ClInclude Include="..\..\lunar engine\include\engine\particle_system.h" />
+    <ClInclude Include="..\..\lunar engine\include\engine\particlesystem_manager.h" />
+    <ClInclude Include="..\..\lunar engine\include\engine\affector.h" />
+    <ClInclude Include="..\..\lunar engine\include\engine\affector_manager.h" />
+    <ClInclude Include="..\..\lunar engine\include\engine\color_fader.h" />
+    <ClInclude Include="..\..\lunar engine\include\engine\direction_randomizer.h" />
+    <ClInclude Include="..\..\lunar engine\include\engine\gravitation.h" />
+    <ClInclude Include="..\..\lunar engine\include\engine\linear_force.h" />
+    <ClInclude Include="..\..\lunar engine\include\engine\scaler.h" />
+    <ClInclude Include="..\..\lunar engine\include\engine\sine_force.h" />
+    <ClInclude Include="..\..\lunar engine\include\engine\emitter.h" />
+    <ClInclude Include="..\..\lunar engine\include\engine\particle.h" />
+    <ClInclude Include="..\..\lunar engine\include\engine\shader.h" />
+    <ClInclude Include="..\..\lunar engine\include\engine\shader_manager.h" />
+    <ClInclude Include="..\..\lunar engine\include\engine\shaderprogram.h" />
+    <ClInclude Include="..\..\lunar engine\include\engine\shaderprogram_manager.h" />
+    <ClInclude Include="..\..\lunar engine\include\engine\attribute.h" />
+    <ClInclude Include="..\..\lunar engine\include\engine\sampler.h" />
+    <ClInclude Include="..\..\lunar engine\include\engine\shadervariable.h" />
+    <ClInclude Include="..\..\lunar engine\include\engine\uniform.h" />
+    <ClInclude Include="..\..\lunar engine\include\engine\text.h" />
+    <ClInclude Include="..\..\lunar engine\include\engine\text_manager.h" />
+    <ClInclude Include="..\..\lunar engine\include\engine\font.h" />
+    <ClInclude Include="..\..\lunar engine\include\engine\font_manager.h" />
+    <ClInclude Include="..\..\lunar engine\include\engine\texture.h" />
+    <ClInclude Include="..\..\lunar engine\include\engine\texture_manager.h" />
+    <ClInclude Include="..\..\lunar engine\include\engine\animation.h" />
+    <ClInclude Include="..\..\lunar engine\include\engine\animation_manager.h" />
+    <ClInclude Include="..\..\lunar engine\include\engine\file_manager.h" />
+    <ClInclude Include="..\..\lunar engine\include\engine\sha.h" />
+    <ClInclude Include="..\..\lunar engine\include\engine\timeline.h" />
+    <ClInclude Include="..\..\lunar engine\include\engine\timer.h" />
+    <ClInclude Include="..\..\lunar engine\include\engine\timer_manager.h" />
+    <ClInclude Include="..\..\lunar engine\include\engine\sound.h" />
+    <ClInclude Include="..\..\lunar engine\include\engine\sound_manager.h" />
+    <ClInclude Include="..\..\lunar engine\include\engine\scene_manager.h" />
+    <ClInclude Include="..\..\lunar engine\include\engine\attachable.h" />
+    <ClInclude Include="..\..\lunar engine\include\engine\border.h" />
+    <ClInclude Include="..\..\lunar engine\include\engine\curve.h" />
+    <ClInclude Include="..\..\lunar engine\include\engine\ellipse.h" />
+    <ClInclude Include="..\..\lunar engine\include\engine\polygon.h" />
+    <ClInclude Include="..\..\lunar engine\include\engine\rectangle.h" />
+    <ClInclude Include="..\..\lunar engine\include\engine\renderable.h" />
+    <ClInclude Include="..\..\lunar engine\include\engine\texturable.h" />
+    <ClInclude Include="..\..\lunar engine\include\engine\render_manager.h" />
+    <ClInclude Include="..\..\lunar engine\include\engine\render_node.h" />
+    <ClInclude Include="..\..\lunar engine\include\engine\capture.h" />
+    <ClInclude Include="..\..\lunar engine\include\engine\thread.h" />
+    <ClInclude Include="..\..\lunar engine\include\engine\thread_manager.h" />
+    <ClInclude Include="..\..\lunar engine\include\engine\resource_manager.h" />
+    <ClInclude Include="..\..\lunar engine\include\engine\animation_container.h" />
+    <ClInclude Include="..\..\lunar engine\include\engine\file_container.h" />
+    <ClInclude Include="..\..\lunar engine\include\engine\font_container.h" />
+    <ClInclude Include="..\..\lunar engine\include\engine\resource_container.h" />
+    <ClInclude Include="..\..\lunar engine\include\engine\shader_container.h" />
+    <ClInclude Include="..\..\lunar engine\include\engine\sound_container.h" />
+    <ClInclude Include="..\..\lunar engine\include\engine\texture_container.h" />
+    <ClInclude Include="..\..\lunar engine\include\engine\aabb.h" />
+    <ClInclude Include="..\..\lunar engine\include\engine\obb.h" />
+    <ClInclude Include="..\..\lunar engine\include\engine\sphere.h" />
+    <ClInclude Include="..\..\lunar engine\include\engine\color.h" />
+    <ClInclude Include="..\..\lunar engine\include\engine\datetime.h" />
+    <ClInclude Include="..\..\lunar engine\include\engine\generic_utility.h" />
+    <ClInclude Include="..\..\lunar engine\include\engine\math_solver.h" />
+    <ClInclude Include="..\..\lunar engine\include\engine\math_utility.h" />
+    <ClInclude Include="..\..\lunar engine\include\engine\matrix3.h" />
+    <ClInclude Include="..\..\lunar engine\include\engine\string_utility.h" />
+    <ClInclude Include="..\..\lunar engine\include\engine\support.h" />
+    <ClInclude Include="..\..\lunar engine\include\engine\vector2.h" />
+    <ClInclude Include="..\..\lunar engine\include\engine\framebuffer.h" />
+    <ClInclude Include="..\..\lunar engine\include\engine\framebuffer_manager.h" />
+    <ClInclude Include="..\..\lunar engine\include\engine\manageable.h" />
+    <ClInclude Include="..\..\lunar engine\include\engine\manager.h" />
+    <ClInclude Include="..\..\lunar engine\include\engine\script_class.h" />
+    <ClInclude Include="..\..\lunar engine\include\engine\script_parser.h" />
+    <ClInclude Include="..\..\lunar engine\include\engine\script_property.h" />
+    <ClInclude Include="..\..\lunar engine\include\engine\script_scope.h" />
+    <ClInclude Include="..\..\lunar engine\include\engine\random_manager.h" />
+    <ClInclude Include="..\..\lunar engine\include\engine\mersenne_twister.h" />
+    <ClInclude Include="..\..\lunar engine\include\engine\random_generator.h" />
+    <ClInclude Include="..\..\lunar engine\include\engine\system.h" />
+    <ClInclude Include="..\..\lunar engine\include\engine\render_window.h" />
+    <ClInclude Include="..\..\lunar entity\include\entity\audible.h" />
+    <ClInclude Include="..\..\lunar entity\include\entity\entity.h" />
+    <ClInclude Include="..\..\lunar entity\include\entity\static_entity.h" />
+    <ClInclude Include="..\..\lunar entity\include\entity\light.h" />
+    <ClInclude Include="..\..\lunar entity\include\entity\object.h" />
+    <ClInclude Include="..\..\lunar entity\include\entity\component.h" />
+    <ClInclude Include="..\..\lunar entity\include\entity\light_component.h" />
+    <ClInclude Include="..\..\lunar entity\include\entity\shadow_component.h" />
+    <ClInclude Include="..\..\lunar entity\include\entity\ui_hud.h" />
+    <ClInclude Include="..\..\lunar entity\include\entity\ui_manager.h" />
+    <ClInclude Include="..\..\lunar entity\include\entity\ui_menu.h" />
+    <ClInclude Include="..\..\lunar entity\include\entity\ui_button.h" />
+    <ClInclude Include="..\..\lunar entity\include\entity\ui_checkbox.h" />
+    <ClInclude Include="..\..\lunar entity\include\entity\ui_element.h" />
+    <ClInclude Include="..\..\lunar entity\include\entity\ui_groupbox.h" />
+    <ClInclude Include="..\..\lunar entity\include\entity\ui_label.h" />
+    <ClInclude Include="..\..\lunar entity\include\entity\ui_progressbar.h" />
+    <ClInclude Include="..\..\lunar entity\include\entity\ui_radiobutton.h" />
+    <ClInclude Include="..\..\lunar entity\include\entity\ui_scrollable.h" />
+    <ClInclude Include="..\..\lunar entity\include\entity\ui_scrollbar.h" />
+    <ClInclude Include="..\..\lunar entity\include\entity\ui_textbox.h" />
+    <ClInclude Include="..\..\lunar entity\include\entity\ui_entity.h" />
+    <ClInclude Include="..\..\lunar entity\include\entity\ui_hint.h" />
+    <ClInclude Include="..\..\lunar entity\include\entity\interval.h" />
+    <ClInclude Include="..\..\lunar entity\include\entity\entity_manager.h" />
+    <ClInclude Include="..\..\lunar entity\include\entity\lighting_manager.h" />
+    <ClInclude Include="..\..\lunar entity\include\entity\node_manager.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

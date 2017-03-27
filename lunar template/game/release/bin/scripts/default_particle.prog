@@ -1,0 +1,5 @@
+shaderprogram
+{
+	shader "default_particle_vert"
+	shader "default_particle_frag"
+}
